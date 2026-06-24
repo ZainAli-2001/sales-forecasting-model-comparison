@@ -50,6 +50,24 @@ The [Fictitious Store dataset](https://www.kaggle.com/datasets/dianavarghese/fic
 
 While LSTM variants achieved marginally lower error, **Prophet with holiday effects was selected** for production use due to minimal feature engineering, fast training time, and strong interpretability — important for a system intended to be maintained and extended by future developers.
 
+## Tech Stack
+Python, Pandas, NumPy, Statsmodels, Prophet, TensorFlow/Keras, Matplotlib, Seaborn
+
+## Installation & Requirements
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ZainAli-2001/sales-forecasting-model-comparison.git
+cd sales-forecasting-model-comparison
+```
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Notebooks
 
 - `1.0-sales-forecasting-EDA.ipynb` — exploratory analysis & preprocessing
@@ -59,8 +77,3 @@ While LSTM variants achieved marginally lower error, **Prophet with holiday effe
 - `5.0-sales-forecasting-LSTM.ipynb` — LSTM variants
 - `6.0-sales-forecasting-CNN.ipynb` — CNN
 - `7.0-sales-forecasting-final-all-models-in-one.ipynb` — full comparison & results
-
-## Tech Stack
-Python, Pandas, NumPy, Statsmodels, Prophet, TensorFlow/Keras, Matplotlib, Seaborn
-
-
